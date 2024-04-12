@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.screen1{
+    background-color: #FFFFFF;
+    height: 42.4rem;
+    width: 42.8rem;
+    border-radius: .5rem;
+    align-items: center;
+    padding: 6.4rem;
+}
+
+.screen1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.screen1 p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2.0rem;
+}
+
+.screen1 a img {
+    cursor: pointer;
+}
+
+.screen2{
+    background-color: #FFFFFF;
+    height: 56.4rem;
+    width: 42.8rem;
+    border-radius: .5rem;
+    align-items: center;
+    padding: 6.4rem;
+    
+}
+
+.screen2 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.screen2 p {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 2.4rem;
+    background-color: #E4EDF1;
+    padding: 1.0rem;
+    margin-bottom: 4.0rem;
+}
+
+.screen2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen2 button {
+    margin-top: 3.7rem;
+    place-items: center;
+    background-color: #FF9500;
+    padding: 1.6rem;
+    border: none;
+    color: #FFFFFF;
+    border-radius: .4rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
